@@ -15,8 +15,8 @@ using an NVIDIA GPU.
 
 Build the Docker image:
 
-docker build -t gpu-image-classifier .
+docker build -t gpu-test .
 
 Run using NVIDIA GPU:
 
-docker run --rm --gpus all gpu-image-classifier
+docker run --rm --gpus all gpu-test
